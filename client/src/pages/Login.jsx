@@ -57,7 +57,7 @@ const Login = () => {
         console.log(userCredential)
 
         // Send token to backend to create JWT
-        const response = await axios.post("http://localhost:5000/api/auth/login", {
+        const response = await axios.post("http://localhost:7000/api/auth/login", {
           idToken,
         });
 
